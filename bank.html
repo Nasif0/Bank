@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Your Bank Account</title>
+<script src="https://cdn.tailwindcss.com"></script>     
+</head>
+<body class="bg-neutral-950">
+     <h1 class="text-4xl font-bold text-gray-100 text-center mt-20">Welcome to your Bank <span class="text-red-500">Account</span></h1>
+
+ <div>
+     <div class="grid grid-cols-3 text-gray-100 ml-5 mt-10">
+          <div class="bg-orange-200 text-black 
+           font-bold p-10 w-96 rounded-md">
+              <h1 class="text-3xl">Deposite</h1>
+              
+<h1 class="text-4xl" >$<span id="deposit-amount">00</span></h1>
+               
+</div>
+
+<div class="bg-red-600 text-black 
+         font-bold p-10 w-96 rounded-md">
+            <h1 class="text-3xl">Withdrow</h1>
+            
+            <h1 class="text-4xl">$ <span id="withdrow-total">00</span></h1>
+             
+       </div>
+
+       <div class="bg-white text-black 
+           font-bold p-10 w-96 rounded-md">
+              <h1 class="text-3xl">Balance</h1>
+              
+              <h1 class="text-4xl">$ <span id="balance-total">2500</span></h1>
+               
+         </div>
+
+     </div>
+ </div>    
+
+
+ <section>
+<div>
+<div class="grid grid-cols-2 text-gray-100 ml-5 mt-10">
+<div class="bg-purple-500 text-black 
+font-bold p-10 w-full rounded-md h-48">
+<h1 class="text-3xl">Your Deposit</h1>
+                   
+<input class="mt-5 w-80 h-10 rounded-md" id="deposit-input" type="" placeholder="$ Amount you want to deposit">
+
+<button class="bg-red-500 hover:bg-red-600 ... text-xl w-20 font-medium text-gray-100 mt-2 rounded-md h-9 " id="deposit-button">Deposit</button>
+                    
+</div>
+     
+<div class="bg-yellow-200 text-black 
+font-bold p-10 w-10/12 rounded-md ml-20 h-48">
+<h1 class="text-3xl">Your Withdrow</h1>
+
+<input class="mt-5 w-80 h-10 rounded-md" id="withdrow-input" type="text" placeholder="$ Amount you want to deposit">
+                 
+<button class="bg-red-500 hover:bg-red-600 ... text-xl w-24 font-medium text-gray-100 mt-2 rounded-md h-9 " id="btn-withdrow">Withdrow</button>
+                  
+            </div>
+     
+            
+     
+          </div>
+      </div> 
+
+</section>
+
+
+
+
+
+<script src="javaScript/yourBankAccount.js"></script>
+<script src="javaScript/withdrow.js"></script>     
+</body>
+</html>
